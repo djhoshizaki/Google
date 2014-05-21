@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	min-width: 1000px;
+	min-height: 500px;
+}	
+
+/*Links*/
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 13px;	
+}	
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer a:active {
+	color: red;
+}	
+
+/*End Links*/
+
+#top {
+	float: right;
+	padding-top: 10px;
+	padding-right: 30px;
+
+}
+
+.topelements {
+	margin: 0px 6px;
+}	
+
+#signin {
+	font-family: sans-serif;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+	height: 30px;
+	width: 70px;
+	  background: #458FFF;
+  background: url('linear-gradient.png') 0 0 repeat-x;
+  background: -webkit-linear-gradient(#458FFF, #1975FF);
+  background:    -moz-linear-gradient(#458FFF, #1975FF);
+  background:     -ms-linear-gradient(#458FFF, #1975FF);
+  background:      -o-linear-gradient(#458FFF, #1975FF);
+  background:         linear-gradient(#458FFF, #1975FF);
+}
+
+#signin:hover {
+	box-shadow: 1px 1px 1px #1975FF;
+}
+
+#logo {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}	
+
+#search {
+	margin: 20px;
+	background-image: url(microphone.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 25px 25px;
+	height: 25px;
+	width: 550px;
+	border: 1px solid #DADADA;
+}
+
+#search:hover {
+	border: 1px solid #AEAEAE;
+}
+
+#button1{
+	margin: 0px 6px;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	border: 1px solid #DADADA;
+	height: 26px;
+	width: 100px;
+	  background: #F2F2F2;
+  background: url('linear-gradient.png') 0 0 repeat-x;
+  background: -webkit-linear-gradient(#F2F2F2, #F4F4F4);
+  background:    -moz-linear-gradient(#F2F2F2, #F4F4F4);
+  background:     -ms-linear-gradient(#F2F2F2, #F4F4F4);
+  background:      -o-linear-gradient(#F2F2F2, #F4F4F4);
+  background:         linear-gradient(#F2F2F2, #F4F4F4);
+}	
+
+#button2{
+	margin: 0px 6px;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	border: 1px solid #DADADA;
+	height: 26px;
+	width: 120px;
+	  background: #F2F2F2;
+  background: url('linear-gradient.png') 0 0 repeat-x;
+  background: -webkit-linear-gradient(#F2F2F2, #F4F4F4);
+  background:    -moz-linear-gradient(#F2F2F2, #F4F4F4);
+  background:     -ms-linear-gradient(#F2F2F2, #F4F4F4);
+  background:      -o-linear-gradient(#F2F2F2, #F4F4F4);
+  background:         linear-gradient(#F2F2F2, #F4F4F4);
+}
+
+#button1:hover {
+	box-shadow: 1px 1px 1px #888888;
+}
+
+#button2:hover {
+	box-shadow: 1px 1px 1px #888888;
+}
+		
+footer {
+	background-color: #EFEFEF;
+	padding: 13px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	min-width: 1000px;
+
+}
+
+.bottomleft {
+	margin: 0px 14px;
+}
+
+.bottomright {
+	float: right;
+	margin: 0px 14px;
+}	
